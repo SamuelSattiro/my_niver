@@ -1,6 +1,8 @@
+@use'variables';
+
 .hero {
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 265px;
     background-image: url(../images/foto1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +14,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #fff;
+        background-color: variables.$textcolor2;
         content: '';
         opacity: 0.4;
     }
@@ -22,10 +24,12 @@
     }
     
     &__text {
-        padding-top: 238px;
+        padding-top: 16px;
         text-align: center;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-shadow: 0.1em 0.1em 0.2em variables.$degrade1 ;
         
     }
     
@@ -33,6 +37,7 @@
         height: 180px;
         margin: 0 auto;
         display: block;
+        margin-top: 210px;
     }
 
     @media (max-width: 640px) {

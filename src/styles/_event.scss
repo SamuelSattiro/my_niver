@@ -1,0 +1,56 @@
+@use'variables';
+
+.event {
+    padding: 70px 0;
+
+    &--bebidas {
+        background-image: linear-gradient(variables.$degrade1, variables.$degrade2);
+    }
+
+    &--comidas {
+        background-image: linear-gradient(variables.$degrade2, variables.$degrade3);
+    }
+
+    &--dj {
+        background-image: linear-gradient(variables.$degrade3, variables.$degrade4);
+    }
+
+    &--presente {
+        background-image: linear-gradient(variables.$degrade4, variables.$degrade1);
+    }
+
+    .container {
+        display: block;
+        text-align: center;
+    }
+
+    &__image {
+        max-width: 560px;
+        border-radius: 6px;
+
+        @media (max-width: 640px) {
+            max-width: 360px;
+        }
+    }
+    
+    &__details {
+        
+        &__title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            color: variables.$textcolor2;text-shadow: 0.1em 0.1em 0.2em variables.$textcolor1
+        }
+
+        &__description {
+            font-size: 18px;
+            line-height: 22px;
+            margin-top: 16px;
+            font-weight: 600;
+            color: variables.$textcolor2;
+            color: variables.$textcolor2;text-shadow: 0.1em 0.1em 0.2em variables.$textcolor1
+        }
+    }
+
+
+}

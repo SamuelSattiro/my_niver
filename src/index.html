@@ -7,15 +7,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="images/logo_festa.png" alt="Logo festa">
             <p class="hero__text">A festa do ano! <br> Não dá para perder! <br> Começa em 12d 2m 5d 12m 3s</p>
+            <img class="hero__logo" src="images/logo_festa.png" alt="Logo festa">
         </div>
     </header>
+
+    <section class="event event--bebidas" >
+        <div class="container" data-aos="zoom-in">
+            <div class="event__details">
+                <h2 class="event__details__title">Bebidas</h2>
+            </div>
+            <div>
+                <img class="event__image" src="images/bebida.jpg" alt="bebidas">
+            </div>
+            <div class="event__details">
+                <p class="event__details__description">
+                    Bebidas gratis até às 23:30!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="event event--comidas" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Comidas</h2>
+            </div>
+            <div>
+                <img class="event__image" src="images/comida.jpg" alt="comidas">
+            </div>
+            <div class="event__details">
+                <p class="event__details__description">
+                    Comidinhas a noite toda, o quanto vocês aguentarem!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="event event--dj" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">DJ</h2>
+            </div>
+            <div>
+                <img class="event__image" src="images/dj.jpg" alt="dj">
+            </div>
+            <div class="event__details">
+                <p class="event__details__description">
+                    DJ Camila Campos ALL NIGHT!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="event event--presente" >
+        <div class="container" data-aos="zoom-in">
+            <div class="event__details">
+                <h2 class="event__details__title">Presente</h2>
+            </div>
+            <div>
+                <img class="event__image" src="images/presente.jpg" alt="bebidas">
+            </div>
+            <div class="event__details">
+                <p class="event__details__description">
+                    Não entra sem! Se esqueceu volta para casa buscar!
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Casa de Show Laiá - São Paulo - SP
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        Presente para a Aniversariante!
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/12/2024 às 19hrs
+                    </li>
+                </ul>
+                <a class="button button--primary" href="#">Confirme sua presença.</a>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="scripts/main.js"></script>
 </html>
