@@ -30,6 +30,11 @@
         font-weight: 700;
         text-transform: uppercase;
         text-shadow: 0.1em 0.1em 0.2em variables.$degrade1 ;
+
+        span {
+            text-transform: lowercase;
+            color: variables.$degrade4;
+        }
         
     }
     
